@@ -1,0 +1,44 @@
+1) The code would output:
+  1
+  2
+  2
+  3
+  4 
+because uniq! is immutable
+
+2)
+- ! can either mean "not" or it can represent that a method is mutable
+- ?, when placed at the end of a method name, usually means that the method
+  will return a boolean value
+
+    what is != and where should you use it?- 
+      - This operator means "not equals" and should be used as a conditional
+    put ! before something, like !user_name
+      - Here, ! would mean "not", which would return trtue if user_name == false
+    put ! after something, like words.uniq!
+      - ! is used to imply that uniq! mutates the caller
+    put ? before something
+      - 
+    put ? after something
+      - This would usually be used to show that a method returns a boolean
+    put !! before something, like !!user_name
+      - This would show True is user_name was true
+
+3) advice.gsub!('important', 'urgent')
+
+4) - numbers.delete_at(1) deletes the element at index 1
+  - numbers.delete(1) deletes all instances of the number 1
+
+5) (10..100).include?(42)
+    => True
+
+6) famous_words += "Four score and "
+  "Four score and " << famous_words
+
+7) 42
+
+8) flintstones.flatten!
+
+9) flintstones.assoc("Barney")
+
+
